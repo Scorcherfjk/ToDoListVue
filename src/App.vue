@@ -44,7 +44,7 @@ export default {
     },
     updateItem(id){
       const idx = this.todos.findIndex(e => e.id == id)
-      this.todos[idx].text = prompt('ingresa un nuevo texto', this.todos[idx].text)
+      this.todos[idx].text = prompt('ingresa un nuevo texto', this.todos[idx].text) || this.todos[idx].text;
     }
   }
 }
