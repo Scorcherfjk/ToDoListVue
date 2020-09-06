@@ -1,8 +1,6 @@
 <template>
   <div>
-    <ToDoList></ToDoList>
-    <ToDoList></ToDoList>
-    <ToDoList></ToDoList>
+    <ToDoList />
   </div>
 </template>
 
